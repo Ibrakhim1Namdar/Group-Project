@@ -209,3 +209,43 @@ box-sizing: border-box;
     font-size: 25px;
     font-weight: 500;
 }
+
+/* .section4{
+    height: 800px;
+} */
+.part4{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    gap: 100px;
+    padding-bottom: 200px;
+}
+.part4_proj{
+    background-color: rgb(20, 64, 126); 
+    width: 400px;
+    height: 300px;
+    text-align: center;align-items: center;justify-content: center;
+    margin-right: 30px;
+}
+.t1{
+    font-size: 30px;
+    color: white;
+}
+.t2{
+    font-size: 25px;
+    color: white;
+    text-decoration: underline;
+}
+.t2:hover{
+    color: rgb(166, 160, 200);;
+}
+.part4_corusel{
+    width: 800px;
+    height: 420px;
+    background-image: url("https://qazaqstroy.kz/storage/app/uploads/public/5cd/02f/c69/thumb__870_450_0_0_auto.jpg");
+}
+.next{
+    width: 50px;
+    float: right;
+}
+
