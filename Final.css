@@ -182,3 +182,30 @@ box-sizing: border-box;
     width: 380px;
 }
 
+.section3{
+    height: 1100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.part3_1{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    padding-top: 50px;
+}
+.part3_img{
+    width: 80px;
+}
+.part3_txt{
+    width: 500px;
+}
+.part3_title{
+    font-size: 40px;
+    font-weight:500;
+}
+.part3_about{
+    font-size: 25px;
+    font-weight: 500;
+}
