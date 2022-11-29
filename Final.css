@@ -250,6 +250,43 @@ box-sizing: border-box;
 }
 
 .section5{
-    height: 800px;
+    height: 500px;
+    background-color: rgb(20, 64, 126);
 
+}
+.doc_list{
+    width: 400px;
+}
+.Document{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+.doc{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.doc_text{
+    padding-bottom: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+.section6{
+    margin-top: 600px;
+    height: 350px;
+    background-color: rgb(20, 64, 126);
+}
+.zav_inputs{
+    gap: 20px;
+    display: flex;
+}
+
+.zav_submit{
+    background-color: white;
+    width: 90px;
+    height: 40px;
 }
