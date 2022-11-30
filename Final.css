@@ -287,7 +287,61 @@ box-sizing: border-box;
 
 .zav_submit{
     background-color: white;
-    width: 90px;
-    height: 40px;
-    
+    width: 150px;
+    height: 50px;
+}
+.zav_input{
+    height: 50px;
+    width: 220px;
+    border: solid 1px white;
+    background-color:  rgb(20, 64, 126);;
+}
+.zav_ques{
+    font-size: 30px;
+    color: white;
+}
+input::placeholder{
+    font-size: 18px;
+    align-items: center;
+    padding-left: 5px;
+    color: rgb(102, 122, 160);
+}
+input, select, textarea{
+    padding-left: 15px;
+    color: white;
+}
+.zav_ques:focus{
+    color: white
+}
+.end1{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center; 
+    gap: 130px;
+}
+.socset{
+    display: flex;
+}
+.end_src1{
+    display: flex;
+    flex-direction: column;
+}
+.end_src2{
+    display: flex;
+    flex-direction: column;
+}
+.end_l{
+    text-decoration: none;
+    color: black;
+}
+.end_ll{
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: rgb(20, 64, 126);
+    font-size: 22px;
+    font-weight: 500;
+}
+.socset{
+    padding-top: 10px;
 }
