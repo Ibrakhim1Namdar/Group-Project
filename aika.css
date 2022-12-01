@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+box-sizing: border-box;
+}
+/* Шапка */
+.header{
+    background-color: white;
+    padding-inline: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.header_inner{
+    display:flex;
+    justify-content: space-betweens;
+    align-items: center;
+}
+
+.nav_img{
+    margin-top: 20px;
+}
+
+
+.nav{
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 160px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.nav_link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 30px;
+    position: relative;
+    color:black;
+    text-decoration: none;
+    transition: color .1s linear;
+}
+
+.nav_link:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+
+    background-color: #fce38a;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    transition: opacity .1s linear;
+}
+.nav_link:hover{
+    color: rgb(26, 63, 156);
+}
+.nav_link:hover :after{
+    opacity: 1;
+}
+/* Статичная шапка */
+.header_fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation-name: show_header;
+    animation-duration: 1s;
+    
+}
+@keyframes show_header {
+    0%{
+        opacity: 0;
+        top: -70px;
+    }
+    100%{
+        opacity: 1;
+        top: 0;
+
+    }
+}
+
+#phone_icon {
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-right: -20px;
+}
+
+#head_num {
+    font-size: 17px;
+    font-weight: bold;
+}
