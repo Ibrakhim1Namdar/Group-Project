@@ -97,3 +97,155 @@ box-sizing: border-box;
     font-size: 17px;
     font-weight: bold;
 }
+
+/* Section 1*/
+
+.section_1 {
+    margin-top: 90px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.basket {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 60%;
+}
+
+.info_part {
+    width: 500px;
+    margin-left: -100px;
+    height: 900px;
+}
+
+.head_title {
+    color: #231f20;
+    font-size: 68px;
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.head_subtitle {
+    margin-top: 100px;
+    color: #231f20;
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-top: 200px;
+}
+
+.b_bottom {
+    margin-top: -20px;
+    width: 100px;
+    height: 2px;
+    background-color: #224d8f;
+}
+
+.main_text {
+    margin-top: 50px;
+    color: #231f20;
+    font-size: 16px;
+    /*font-family: 'Poppins', sans-serif;*/
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.45;
+    font-weight: 500;
+    width: 115%;
+}
+
+.pic_part {
+    position: absolute;
+}
+
+sup {
+    color: #231f20;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.pic_part img {
+    width: 80%;
+    margin-top: 350px;
+    margin-left: 750px;
+}
+
+.b {
+    width: 40%;
+    background-color: #224d8f;
+    background-position: center center;
+    border-color: transparent;
+    height: auto;
+}
+
+.info_part h3 {
+    margin-top: 70px;
+    color: #231f20;
+    font-size: 19px;
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.45;
+    font-weight: 700;
+}
+
+.conc_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.conc_1 {
+    margin-right: 60px;
+}
+
+.conc_1 h1 {
+    color: #224d8f;
+    font-size: 72px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.1;
+    font-weight: 500;
+    margin: 0;
+}
+
+.conc_1 p {
+    color: #231f20;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.45;
+    font-weight: 400;
+}
+
+.conc_2 h1 {
+    color: #224d8f;
+    font-size: 72px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.1;
+    font-weight: 500;
+    margin: 0;
+}
+
+.conc_2 p {
+    color: #231f20;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.45;
+    font-weight: 400;
+}
+
+/*Section 2*/
+
+.section_2 {
+    margin-top: -90px;
+}
+
