@@ -223,5 +223,174 @@ margin-left: 150px;
 }
 .about2{
     width: 50%;
-    
 }
+.about2_img{
+    margin-top: 20px;
+}
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-image: url("https://novostroy-a.akamaihd.net/regions/u/b/g/box_orig/5a044b1575ee2.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;/*Занимает всю площадь экрана*/
+}
+.section5{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.program{
+    gap: 30px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: auto;
+}
+.prog_1{
+    text-align: center;
+    width: 600px;
+    height: 450px;
+    border: solid 1px #17493c;
+}
+.p1_1{
+    font-size: 30px;
+    color: #17493c;
+}
+.p1_2{
+    font-size: 20px;
+}
+.p2_7{
+    font-size: 30px;
+    color:#17493c;
+}
+.p2{
+    display: flex;
+    justify-content: space-around;
+}
+.yznat{
+    background-color: #17493c;
+}
+
+.prog_2{
+    width: 600px;
+    height: 450px;
+    border: solid 1px #17493c;
+}
+
+/*Section 6*/
+.parall{
+    display: flex;
+    justify-content: space-around;
+}
+.par_1{
+    display: flex;
+}
+.par_2{
+    font-size: 48px;
+    color:#17493c;
+}
+.par_3{
+    padding-left: 10px;
+   width: 120px;
+   font-size: 20px;
+}
+/*Section 7*/
+.app{
+    display: flex;
+    justify-content: center;
+    gap: 350px;
+}
+.app_txt1{
+    font-size: 35px;
+    color: #17493c;
+}
+.app_txt2{
+    margin-top: 50px;
+    font-size: 18px;
+    color:#17493c;
+    width: 600px;
+}
+.locate{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 40px;
+}
+.loc{
+    color: #17493c;
+    font-size: 18px;
+}
+
+.section8{
+    padding-top: 100px;
+    text-align: center;
+}
+.fl_kv{
+    color: #17493c;
+    font-size: 34px;
+}
+.kvartiry{
+    display: flex;
+    justify-content: center;
+}
+.fl_kom{
+    width: 200px;
+    height: 50px;
+    border: solid 2px #17493c;
+}
+#kom1{
+    background-color: #17493c;
+    color: white;
+}
+.flat_info{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.fl_in{
+    width: 45%;
+    margin-bottom: 70px;
+}
+.fl_im{
+    width: 55%;
+}
+
+#eta{
+    font-size: 35px;
+    color:#17493c;
+}
+#komnat{
+    font-size: 20px;
+    color: #17493c;
+}
+#area{
+    font-size: 32px;
+    color:#17493c;
+}
+
+.kopka{
+    display: flex;
+    justify-content: center;
+}
+.knopka{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 50px;
+    background-color: #17493c;
+}
+.bord{
+    margin: 120px;
+    border: 2px solid #c49c0c;
+}
+
+
+
+
