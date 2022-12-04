@@ -153,10 +153,10 @@
             <p class="zav_ques">Появились вопросы?</p>
 
             <div class="zav_inputs">
-                <input type="text" class="zav_input" placeholder="Ваше имя">
-                <input class="zav_input" id="phone" type="tel" name="phone" placeholder="+7 777 77 77">
+                <input id = "mail1" type="text" class="zav_input" placeholder="Ваше имя">
+                <input id = "mail2" class="zav_input" id="phone" type="tel" name="phone" placeholder="+7 777 77 77">
 
-                <div class="zav_submit center">
+                <div class="zav_submit center" onclick="email(mail1.value, mail2.value)">
                     <p style ="font-weight: 500; font-size: 18px;">Отправить</p>
                 </div>
             </div>
