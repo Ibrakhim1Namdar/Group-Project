@@ -152,6 +152,26 @@ box-sizing: border-box;
     text-align: center;
 }
 
+
+@media(max-width:1200px){
+    .intro{
+        display: block;
+    }
+    .vrema{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .photo{
+        width: 100%;
+    }
+    .ph1{
+        max-width: 700px;
+    }
+    .txt{
+        margin: auto;
+    }
+}
+
 /* .joj{
     height: 200px;
 } */
