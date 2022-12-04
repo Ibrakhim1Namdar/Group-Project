@@ -163,9 +163,13 @@ box-sizing: border-box;
     }
     .photo{
         width: 100%;
+        margin: auto;
     }
     .ph1{
         max-width: 700px;
+        margin: auto;
+        float: left;
+        margin-left: 150px;
     }
     .txt{
         margin: auto;
@@ -201,7 +205,16 @@ box-sizing: border-box;
     color: white;
     width: 380px;
 }
+@media(max-width:1400px){
+    .section2{
+        height: 1050px;
+    }
+    .about{
+        display: block;
 
+    }
+
+}
 .section3{
     height: 1100px;
     width: 100%;
@@ -228,6 +241,16 @@ box-sizing: border-box;
 .part3_about{
     font-size: 25px;
     font-weight: 500;
+}
+@media(max-width:1000px){
+    .part3{
+        width: 100%;
+    }
+}
+@media(max-width:500px){
+    .ph1{
+        max-width: 100%;
+    }
 }
 
 /* .section4{
