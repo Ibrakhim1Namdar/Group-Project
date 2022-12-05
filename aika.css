@@ -4,12 +4,13 @@ body {
     font-size: 15px;
     line-height: 1.6;
     color: #333;
-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 /* Шапка */
 .header{
     background-color: white;
-    padding-inline: 30px;
+    padding-inline: 20px;
     position: absolute;
     top: 0;
     left: 0;
@@ -39,7 +40,7 @@ box-sizing: border-box;
 .nav_link{
     display: inline-block;
     vertical-align: top;
-    margin: 0 30px;
+    margin: 0 20px;
     position: relative;
     color:black;
     text-decoration: none;
@@ -89,7 +90,7 @@ box-sizing: border-box;
 
 #phone_icon {
     margin-top: 5px;
-    margin-left: 100px;
+    margin-left: 20px;
     margin-right: -20px;
 }
 
@@ -98,10 +99,15 @@ box-sizing: border-box;
     font-weight: bold;
 }
 
-/* Section 1*/
+/* h_title */
+.h_title {
+    margin-top: 90px;
+}
+
+/* Section 1 */
 
 .section_1 {
-    margin-top: 90px;
+    margin-top: -70px;
 }
 
 .container {
@@ -125,7 +131,13 @@ box-sizing: border-box;
 .info_part {
     width: 500px;
     margin-left: -100px;
-    height: 900px;
+    height: 700px;
+}
+
+.info_part6 {
+    width: 500px;
+    margin-left: -100px;
+    height: 800px;
 }
 
 .head_title {
@@ -134,10 +146,11 @@ box-sizing: border-box;
     font-family: 'Roboto Slab', serif;
     line-height: 1.2;
     font-weight: 600;
+    margin-left: -100px;
 }
 
 .head_subtitle {
-    margin-top: 100px;
+    margin-top: 150px;
     color: #231f20;
     font-size: 40px;
     font-family: 'Roboto Slab', serif;
@@ -166,6 +179,12 @@ box-sizing: border-box;
 
 .pic_part {
     position: absolute;
+    height: 700px;
+}
+
+.pic_part6 {
+    position: absolute;
+    height: 800px;
 }
 
 sup {
@@ -176,10 +195,46 @@ sup {
     font-weight: 600;
 }
 
-.pic_part img {
-    width: 80%;
-    margin-top: 350px;
-    margin-left: 750px;
+#img1 {
+    width: 750px;
+    height: 470px;
+    margin-top: 290px;
+    margin-left: 1300px;
+}
+
+#img2 {
+    width: 958px;
+    height: 672px;
+    margin-top: 120px;
+    margin-left: 1450px;
+}
+
+#img3 {
+    width: 700px;
+    height: 560px;
+    margin-top: 260px;
+    margin-left: 1300px;
+}
+
+#img4 {
+    width: 730px;
+    height: 550px;
+    margin-top: 230px;
+    margin-left: 1300px;
+}
+
+#img5 {
+    width: 750px;
+    height: 460px;
+    margin-top: 230px;
+    margin-left: 1300px;
+}
+
+#img6 {
+    width: 590px;
+    height: 460px;
+    margin-top: 290px;
+    margin-left: 1300px;
 }
 
 .b {
@@ -219,6 +274,7 @@ sup {
 }
 
 .conc_1 p {
+    margin-top: -5px;
     color: #231f20;
     font-size: 18px;
     font-family: 'Rubik', sans-serif;
@@ -236,6 +292,7 @@ sup {
 }
 
 .conc_2 p {
+    margin-top: -5px;
     color: #231f20;
     font-size: 18px;
     font-family: 'Rubik', sans-serif;
@@ -243,9 +300,87 @@ sup {
     font-weight: 400;
 }
 
-/*Section 2*/
+/* Footer */
 
-.section_2 {
-    margin-top: -90px;
+.zav {
+    margin-top: 70px;
+    background-color: #224d8f;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.zav_inputs{
+    gap: 30px;
+    display: flex;
+}
+
+.zav_submit{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zav_input{
+    height: 50px;
+    width: 220px;
+    border: solid 1px white;
+    background-color: #224d8f;
+}
+.zav_ques{
+    margin-top: 0;
+    font-size: 30px;
+    color: white;
+}
+input::placeholder{
+    font-size: 18px;
+    align-items: center;
+    padding-left: 5px;
+    color: rgb(102, 122, 160);
+}
+input, select, textarea{
+    padding-left: 15px;
+    color: white;
+}
+.zav_ques:focus{
+    color: white
+}
+.end1{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center; 
+    gap: 130px;
+}
+.socset{
+    display: flex;
+}
+.end_src1{
+    display: flex;
+    flex-direction: column;
+}
+.end_src2{
+    display: flex;
+    flex-direction: column;
+}
+.end_l{
+    text-decoration: none;
+    color: black;
+}
+.end_ll{
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: #224d8f;
+    font-size: 22px;
+    font-weight: 500;
+}
+.socset{
+    padding-top: 10px;
+}
+
 
