@@ -22,7 +22,6 @@ box-sizing: border-box;
     justify-content: space-betweens;
     align-items: center;
 }
-
 .nav_img{
     margin-top: 20px;
 }
@@ -66,6 +65,17 @@ box-sizing: border-box;
 .nav_link:hover :after{
     opacity: 1;
 }
+@media(max-width:700px){
+    .header_inner{
+        display: block;
+        float: inline-start;
+        
+    }
+    .nav{
+        margin-left: 70px;
+    }
+    
+}
 /* Статичная шапка */
 .header_fixed{
     position: fixed;
@@ -108,7 +118,10 @@ box-sizing: border-box;
 }
 .r{
     width: 40%;
+    display: flex;
+    align-items: center;
 }
+
 .into_txt{
     width: 100%;
     padding-top: 120px;
@@ -123,6 +136,10 @@ box-sizing: border-box;
     height: 700px;
     background-color: white;
 }
+.rr{
+    margin-top: 165px;
+    width: 450px;
+}
 .rec_t1{
     padding-top: 20px;
     font-size: 25px;
@@ -133,14 +150,61 @@ box-sizing: border-box;
     justify-content: center;
 }
 .ned{
-    font-size: 20px;
-    color: rgb(20, 64, 126);;
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+}
+.rec_our{
+    text-align: center;
 }
 .input{
     width: 200px;
     height: 40px;
 }
+@media(max-width:700px) {
+    .into_txt{
+        padding-top: 300px;
+        font-size: 22px;
+    }
+    .rec_t1{
+        font-size: 18px;
 
+    }
+    .ned{
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+.sub_zero{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.submit{
+    width: 220px;
+    height: 50px;
+    background-color:  rgb(20, 64, 126);;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.sub_btn{
+    color: white;
+}
+@media(max-width:1000px){
+    .l{
+        width: 100%;
+    }
+    .rectangle{
+        width: 100%;
+    }
+    .r{
+        width: 0%;
+    }
+    .rr{
+        width: 0px;
+    }
+}
 
 /*End*/
 .end1{
@@ -175,4 +239,41 @@ box-sizing: border-box;
 .socset{
     padding-top: 10px;
 }
+@media(max-width:1000px){
+   .end1{
+    gap: 50px;
+   }
+}
+@media(max-width:700px){
+    .end1{
+        padding-top: 200px;
+        display: block;
+        text-align: center;
+    }
+    .socset{
+        display: flex;
+        justify-content: center;
+    }
+ }
+ .result{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+ }
+ .kv{
+    font-size: large;
+    color:#333;
+ }
+ .result1{
+    display: flex;
+    justify-content: center;
 
+ }
+ .res{
+    top: 0;
+    font-size: large;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 20px;
+ }
+ 

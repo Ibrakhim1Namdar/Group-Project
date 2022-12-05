@@ -14,10 +14,10 @@
         <div class="header_inner">
                 <img class="nav_img" src="https://static.tildacdn.com/tild6337-6433-4830-b539-333535303236/3.svg" width="180"></img>
                 <nav class="nav">
-                    <a class="nav_link" href="Final.html">Главная</a>
-                    <a class="nav_link" href="#">Строительство</a>
+                    <a class="nav_link" href="index.html">Главная</a>
+                    <a class="nav_link" href="aika.html">Строительство</a>
                     <a class="nav_link" href="#">Проекты</a>
-                    <a class="nav_link" href="#">Подбор квартир</a>
+                    <a class="nav_link" href="PodborKV.html">Подбор квартир</a>
                     <a class="nav_link" href="#">Контакты</a>
                     <a class="nav_link" href="#">Партнерам</a>
                 </nav>
@@ -36,30 +36,39 @@
                 <div class="rec_podbor">
                     <div class="rec_our">                    
                         <div class="cena">
-                            <p class="ned">Стоимость недвижимост в тенге</p>
-                            <input class="input" type="text" placeholder="Бюджет">
+                            <p class="ned">Стоимость недвижимости в тенге</p>
+                            <input id = "i1" class="input" type="text" placeholder="Бюджет">
                         </div>
                         <div class="cena">
                             <p class="ned">Общяя площадь в кв.м</p>
-                            <input class="input" type="number" placeholder="Общяя площадь">
+                            <input id="i2" class="input" type="number" placeholder="Общяя площадь">
                         </div>
                         <div class="cena">
                             <p class="ned">Количество комнат</p>
-                            <input class="input" type="number" placeholder="Количество комнат">
+                            <input id="i3" class="input" type="number" placeholder="Количество комнат">
                         </div>
                     </div>
                 </div>
+               <div class="sub_zero"> 
+                    <div class="submit" onclick="search(i1.value, i2.value, i3.value)"> 
+                        <p class="sub_btn">Подобрать квартиру</p>
+                    </div>
+                </div>
+                <div class="result">
+                    <p class="kv">Result:</p>
+                </div>
+                <div class="result1">
+                        <p id = "res"></p>
+                </div>
+
             </div>
-            <div class="submit"> 
-                <p class="sub_btn">Подобрать квартиру</p>
-            </div>
+            
 
         </div>
         <div class="r">
-
+            <img class="rr" src="https://thumb.tildacdn.com/tild3034-3030-4537-b239-663339326362/-/cover/920x1434/center/center/-/format/webp/minh-pham-OtXADkUh3-.jpg" alt="">
         </div>
     </div>
-
 </section>
 
 

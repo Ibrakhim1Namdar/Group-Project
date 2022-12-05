@@ -445,7 +445,7 @@ margin-left: 150px;
 
 /*Section 7*/
 .app{
-    margin-top: 200px;
+    /* margin-top: 200px; */
     display: flex;
     justify-content: center;
     gap: 350px;
