@@ -91,6 +91,9 @@ body {
 
     }
 }
+@media(max-width:700px){
+    
+}
 
 #phone_icon {
     margin-left: 50px;
@@ -245,14 +248,13 @@ input, select, textarea{
 
 @media(max-width:1400px){
     .imsec{
-        max-width: 1000px;
-        margin: auto;
+        width: 1000px;
     }
 }
 
 @media(max-width:1000px){
     .imsec{
-        max-width: 600px;
+        width: 600px;
         margin: auto;
     }
 }
@@ -279,7 +281,7 @@ margin-left: 150px;
 @media(max-width:1250px){
     .about{
         display: block; 
-        margin-top: 200px;
+        margin-top: 50px;
     }
     .adap1{
         max-width: 500px;
@@ -298,6 +300,9 @@ margin-left: 150px;
     }
     .section3{
         height: 1000px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
     }
     
 }
@@ -313,6 +318,13 @@ margin-left: 150px;
 
 }
 @media(max-width:800px){
+    .about{
+        margin-top: 20px;
+    }
+    .section3{
+        display: flex;
+        justify-content: center;
+    }
     .adap1{
         max-width: 300px;
     }
@@ -394,7 +406,7 @@ margin-left: 150px;
     }
 
 }
-@media(max-width:700px){
+@media(max-width:800px){
     .prog_1{
         margin: auto;
         max-width: 400px;
@@ -473,7 +485,7 @@ margin-left: 150px;
 }
 @media(max-width:1000px){
     .app{
-        margin-top: 100px;
+        margin-top: 500px;
         display: block;
         text-align: center;
     }
@@ -492,8 +504,9 @@ margin-left: 150px;
         text-align: center;
     }
 }
-@media(max-width:500px){
+@media(max-width:700px){
     .app{
+        margin-top: 150px;
         /* margin-top: 0; */
     }
 }
@@ -567,6 +580,7 @@ margin-left: 150px;
     }
     .flat_info{
         display: block;
+        height: 500px;
     }
     .bord{
         border: 0;
@@ -578,11 +592,19 @@ margin-left: 150px;
         width: 100%;
     }
 }
-@media(max-width:600px){
+@media(max-width:800px){
+    .fl_im{
+        margin: 0;
+    }
     .fl.img{
-        max-width: 200px;
+        display: flex;
+        justify-content: start;
+        float: left;
+        margin-top: 50px;
 
-        margin-left: 0px;
+    }
+    .section9{
+        margin-top: 400px;
     }
 }
 /*Section9*/
@@ -675,8 +697,7 @@ margin-left: 150px;
     .form{
         display: block;
         border: 0;
-        max-width: 700px;
-        margin: auto;
+        
     }
     .section9{
         height: 1100px;
@@ -685,7 +706,15 @@ margin-left: 150px;
     font-size: 16px;
     }
     .form_input{
-        max-width: 300px;
+        display: flex;
+        justify-content: center;
+    }
+    .form_info{
+        width: 100%;
+    }
+    .form_info{
+        width: 100%;
+        display: block;
     }
     
 }
@@ -693,4 +722,11 @@ margin-left: 150px;
     .end_page{
         gap: 0px;
     }
+    .first_inp{
+        margin-left: 0px;
+    }
+    
+}
+input, select, textarea{
+    color: #000;
 }
