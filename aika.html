@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Строительство</title>
     <link rel="stylesheet" href="aika.css">
-    <script src="jquery-3.6.1.min.js"></script>
     <style> 
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); 
     @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
@@ -14,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
 <body>
     <header>
@@ -239,8 +239,8 @@
                 <input id = "mail1" type="text" class="zav_input" placeholder="Ваше имя">
                 <input id = "mail2" class="zav_input" id="phone" type="tel" name="phone" placeholder="+7 777 77 77">
 
-                <div class="zav_submit center" onclick="email(mail1.value, mail2.value)">
-                    <p style ="font-weight: 500; font-size: 18px;">Отправить</p>
+                <div class="zav_submit center" id="subm" onclick="email(mail1.value, mail2.value)">
+                    <p id = "subm_1" style ="font-weight: 500; font-size: 18px;">Отправить</p>
                 </div>
             </div>
             <p style="color: white; padding-top: 5px; width: 800px; line-height: 1em;" class="zav_q">Нажав на кнопку "Отправить", вы даете согласие на обработку персональных данных и соглашаетесь с Политикой конфиденциальности</p>

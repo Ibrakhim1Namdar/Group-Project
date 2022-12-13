@@ -91,7 +91,15 @@ body {
 
     }
 }
-@media(max-width:700px){
+@media(max-width:1000px){
+    .header_inner{
+        display: flex;
+        flex-direction: column;
+        float: left;
+    }
+    .section1{
+        padding-top: 100px;
+    }
     
 }
 
@@ -115,6 +123,7 @@ body {
     align-items: center;
    background-color: #17493c;
    height: 50px;
+   width: 200px;
 }
 
 /*Section1*/

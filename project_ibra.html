@@ -22,7 +22,7 @@
                         <img src="https://static.tildacdn.com/tild6232-3537-4666-b436-333461643430/carbon_phone-voice.svg" alt="" id="phone_icon">
                         <a class="nav_link" href="tel:+77115442311" id="head_num">+7 711 544 23 11</a>
                         <div class="nav_link">
-                            <div class="giv" style="width: 200px; "><a class="giv_get">Получить консультацию</a></div>
+                            <div class="giv"><a class="giv_get">Получить консультацию</a></div>
                             
                         </div>
                     </nav>
@@ -39,10 +39,10 @@
             </div>
             <div class="first_input">
                 <p class="inp">Получить консультацию</p>
-                <input class="input_name" type="text" placeholder="Имя">
-                <input type="text" class="input_num" placeholder="+7 777 77 77">
-                <div class="zav_submit">
-                    <p style ="font-weight: 500; font-size: 18px; color:  #ffdea6;">Получить консультацию</p>
+                <input id="q1" class="input_name" type="text" placeholder="Имя">
+                <input id="q2" type="text" class="input_num" placeholder="+7 777 77 77">
+                <div id="subm" class="zav_submit" onclick="email(q1.value, q2.value)">
+                    <p id="subm_1" style ="font-weight: 500; font-size: 18px; color:  #ffdea6;">Получить консультацию</p>
                 </div>
 
            </div>
@@ -222,12 +222,12 @@
             <div class="form_inp">
                 <p class="form_inp_txt">Заполните форму, наш менеджер перезвонит вам в течении 60 минут</p>
 
-                <input type="text" class="form_input" placeholder="Введите ваше имя">
-                <input class="form_input" id="phone" type="tel" name="phone" placeholder="+7 999 99 99">
+                <input id="q3" type="text" class="form_input" placeholder="Введите ваше имя">
+                <input id="q4" class="form_input" id="phone" type="tel" name="phone" placeholder="+7 999 99 99">
 
                 <p style="font-size:12px; width: 350px;">Внимание! После нажатия на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь c Политикой конфиденциальности</p>
-                <div class="zav_submit center">
-                    <p style ="font-weight: 500; font-size: 18px;color: #ffdea6;">Отправить</p>
+                <div id="subm" class="zav_submit center" onclick="email(q3.value, q4.value)">
+                    <p id="subm_1" style ="font-weight: 500; font-size: 18px;color: #ffdea6;">Отправить</p>
                 </div>
             </div>
             <div class="form_info">
