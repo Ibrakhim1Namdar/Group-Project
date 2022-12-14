@@ -16,6 +16,7 @@ body {
     left: 0;
     right: 0;
     z-index: 100;
+    width: 100%;
 
 }
 
@@ -142,6 +143,11 @@ body {
 }
 .first_input{
     width: 40%;
+}
+@media(max-width:1000px){
+    .first_input{
+        width: 100%;
+    }
 }
 .first_txt{
     text-align: left;
@@ -584,6 +590,12 @@ margin-left: 150px;
     border: 2px solid #c49c0c;
 }
 @media(max-width:1000px){
+    .knopka{
+        width: 100%;
+    }
+    .bord{
+        margin: 0;
+    }
     .fl_in{
         width: 100%;
     }
@@ -603,8 +615,9 @@ margin-left: 150px;
 }
 @media(max-width:800px){
     .fl_im{
-        margin: 0;
+        width: 100%;
     }
+    
     .fl.img{
         display: flex;
         justify-content: start;
@@ -625,7 +638,7 @@ margin-left: 150px;
     
 }
 .form{
-    width: 1400px;
+    /* width: 1400px; */
     height: 700px;
     border: 1px solid #17493c;
     display: flex;
@@ -706,24 +719,37 @@ margin-left: 150px;
     .form{
         display: block;
         border: 0;
+        width: 100%Z;
         
+    }
+    .first_inp{
+        width: 100%;
+    }
+    .flat_info{
+        width: 100%;
     }
     .section9{
         height: 1100px;
+        width: 100%;
     }
     .form_inp_txt{
     font-size: 16px;
     }
-    .form_input{
-        display: flex;
+    .flex_ou{
+        display: block;
         justify-content: center;
     }
     .form_info{
         width: 100%;
+        display: block;
     }
     .form_info{
         width: 100%;
         display: block;
+    }
+    .bord{
+        width: 100%;
+        display: flex;
     }
     
 }
@@ -734,6 +760,10 @@ margin-left: 150px;
     .first_inp{
         margin-left: 0px;
     }
+    .bord{
+        width: 100%;
+    }
+    
     
 }
 input, select, textarea{
