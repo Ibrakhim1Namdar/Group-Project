@@ -114,7 +114,7 @@ box-sizing: border-box;
     width: 60%;
     background-color: rgb(20, 64, 126);
     height: 800px;
-    padding-bottom: 200px;
+    padding-bottom: 230px;
 }
 .r{
     width: 40%;
@@ -132,13 +132,14 @@ box-sizing: border-box;
 }
 .rectangle{
     float: right;
-    width: 700px;
-    height: 700px;
+    width: 720px;
+    height: 720px;
     background-color: white;
 }
 .rr{
-    margin-top: 165px;
+    margin-top: 185px;
     width: 450px;
+    height: 720px;
 }
 .rec_t1{
     padding-top: 20px;
