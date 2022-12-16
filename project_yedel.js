@@ -25,3 +25,18 @@ function reload2(){
     document.getElementById("komnata_1").style.color="#9bc58e";
     document.getElementById("komnata_1").style.backgroundColor="white";
 }
+function email(uname, pass){
+    $("#submw").css("background-color", "grey");
+    document.getElementById("subm_14w").innerText = "Отправлено";
+      $.ajax({
+      url : 'Email.php',
+      type : 'POST',
+      data: {username: uname, password: pass},
+      success : function (result) {
+        console.log (result);
+      },
+      error : function () {
+        console.log ('error');
+      }
+    });
+}
