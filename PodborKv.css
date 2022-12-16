@@ -4,7 +4,7 @@ body {
     font-size: 15px;
     line-height: 1.6;
     color: #333;
-box-sizing: border-box;
+    box-sizing: border-box;
 }
 /* Шапка */
 .header{
@@ -15,6 +15,7 @@ box-sizing: border-box;
     left: 0;
     right: 0;
     z-index: 100;
+    padding-bottom: 12px;
 }
 
 .header_inner{
@@ -59,6 +60,7 @@ box-sizing: border-box;
     z-index: 1;
     transition: opacity .1s linear;
 }
+
 .nav_link:hover{
     color: rgb(26, 63, 156);
 }
@@ -114,7 +116,7 @@ box-sizing: border-box;
     width: 60%;
     background-color: rgb(20, 64, 126);
     height: 800px;
-    padding-bottom: 200px;
+    padding-bottom: 230px;
 }
 .r{
     width: 40%;
@@ -132,13 +134,14 @@ box-sizing: border-box;
 }
 .rectangle{
     float: right;
-    width: 700px;
-    height: 700px;
+    width: 720px;
+    height: 720px;
     background-color: white;
 }
 .rr{
-    margin-top: 165px;
+    margin-top: 152px;
     width: 450px;
+    height: 720px;
 }
 .rec_t1{
     padding-top: 20px;

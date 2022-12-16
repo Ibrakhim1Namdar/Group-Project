@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project12</title>
+    <title>Four Seasons</title>
     <link rel="stylesheet" href="project_ibra.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
@@ -15,14 +15,14 @@
             <div class="header_inner">
                     <img class="nav_img" src="https://static.tildacdn.com/tild3066-6532-4139-b034-313533646330/Component_1.svg" width="120"></img>
                     <nav class="nav">
-                        <a class="nav_link" href="Final.html">Квартиры</a>
-                        <a class="nav_link" href="#">Расположение</a>
-                        <a class="nav_link" href="#">Условие оплаты</a>
+                        <a class="nav_link" href="#sc12">Квартиры</a>
+                        <a class="nav_link" href="#sc23">Расположение</a>
+                        <a class="nav_link" href="#sc45">Условие оплаты</a>
                         
                         <img src="https://static.tildacdn.com/tild6232-3537-4666-b436-333461643430/carbon_phone-voice.svg" alt="" id="phone_icon">
                         <a class="nav_link" href="tel:+77115442311" id="head_num">+7 711 544 23 11</a>
                         <div class="nav_link">
-                            <div class="giv" style="width: 200px; "><a class="giv_get">Получить консультацию</a></div>
+                            <div class="giv"><a class="giv_get">Получить консультацию</a></div>
                             
                         </div>
                     </nav>
@@ -39,10 +39,10 @@
             </div>
             <div class="first_input">
                 <p class="inp">Получить консультацию</p>
-                <input class="input_name" type="text" placeholder="Имя">
-                <input type="text" class="input_num" placeholder="+7 777 77 77">
-                <div class="zav_submit">
-                    <p style ="font-weight: 500; font-size: 18px; color:  #ffdea6;">Получить консультацию</p>
+                <input id="q1" class="input_name" type="text" placeholder="Имя">
+                <input id="q2" type="text" class="input_num" placeholder="+7 777 77 77">
+                <div id="subm" class="zav_submit" onclick="email(q1.value, q2.value)">
+                    <p id="subm_1" style ="font-weight: 500; font-size: 18px; color:  #ffdea6;">Получить консультацию</p>
                 </div>
 
            </div>
@@ -71,7 +71,7 @@
     </section>
 
 
-    <section class="section5">
+    <section class="section5" id="sc45">
         <div class="program">
             <div class="prog_1">
                 <p class="p1_1">70-20-25</p>
@@ -161,7 +161,7 @@
         </div>
     </section>
 
-    <section class="section7">
+    <section class="section7" id="sc23">
         <div class="app">
             <p class="app_txt1">Расположение</p>
             <p class="app_txt2">ЖК «4 seasons" находится южнее улицы Журавлёва и восточнее улицы Абиша Кекилбайулы</p>
@@ -176,7 +176,7 @@
         <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A617752112213a49301ede9e4ea2b30a6720e51c64209b07b177e598540c2a50f&amp;width=100%25&amp;height=547&amp;lang=ru_RU&amp;scroll=true"></script>    </section>
 
 
-    <section class="section8">
+    <section class="section8" id="sc12">
         <div class="flats">
             <p class="fl_kv">Квартиры</p>
         </div>
@@ -222,12 +222,12 @@
             <div class="form_inp">
                 <p class="form_inp_txt">Заполните форму, наш менеджер перезвонит вам в течении 60 минут</p>
 
-                <input type="text" class="form_input" placeholder="Введите ваше имя">
-                <input class="form_input" id="phone" type="tel" name="phone" placeholder="+7 999 99 99">
+                <input id="q3" type="text" class="form_input" placeholder="Введите ваше имя">
+                <input id="q4" class="form_input" id="phone" type="tel" name="phone" placeholder="+7 999 99 99">
 
                 <p style="font-size:12px; width: 350px;">Внимание! После нажатия на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь c Политикой конфиденциальности</p>
-                <div class="zav_submit center">
-                    <p style ="font-weight: 500; font-size: 18px;color: #ffdea6;">Отправить</p>
+                <div id="subm1" class="zav_submit center" onclick="email(q3.value, q4.value)">
+                    <p id="subm_11" style ="font-weight: 500; font-size: 18px;color: #ffdea6;">Отправить</p>
                 </div>
             </div>
             <div class="form_info">

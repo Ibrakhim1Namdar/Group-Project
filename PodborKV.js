@@ -18,3 +18,18 @@ function search(a, b, c){
         }
     });
 }
+function email(uname, pass){
+    $("#subm").css("background-color", "grey");
+    document.getElementById("subm_1").innerText = "Отправлено";
+      $.ajax({
+      url : 'Email.php',
+      type : 'POST',
+      data: {username: uname, password: pass},
+      success : function (result) {
+        console.log (result);
+      },
+      error : function () {
+        console.log ('error');
+      }
+    });
+}

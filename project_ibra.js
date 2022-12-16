@@ -74,3 +74,23 @@ function fade(){
     $("#fl.img").animate({opacity: '1'}, "slow");
 
 }
+
+function email(uname, pass){
+    $("#subm").css("background-color", "grey");
+    $("#subm1").css("background-color", "grey");
+    document.getElementById("subm_1").innerText = "Отправлено";
+    document.getElementById("subm_11").innerText = "Отправлено";
+
+
+      $.ajax({
+      url : 'Email.php',
+      type : 'POST',
+      data: {username: uname, password: pass},
+      success : function (result) {
+        console.log (result);
+      },
+      error : function () {
+        console.log ('error');
+      }
+    });
+}
