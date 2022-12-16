@@ -1,3 +1,11 @@
+
+window.onscroll = function showHeader(){
+    var head = document.querySelector('.header');
+    if(window.pageYOffset > 200){
+        head.classList.add('header_fixed');
+    }
+}
+
 function reload(){
     document.getElementById("bl").innerHTML = "Блок-1";
     document.getElementById("bl2").innerHTML = "1 - комнатная";
@@ -25,6 +33,10 @@ function reload2(){
     document.getElementById("komnata_1").style.color="#9bc58e";
     document.getElementById("komnata_1").style.backgroundColor="white";
 }
+
+
+
+
 function email(uname, pass){
     $("#submw").css("background-color", "grey");
     document.getElementById("subm_14w").innerText = "Отправлено";
@@ -40,3 +52,4 @@ function email(uname, pass){
       }
     });
 }
+
