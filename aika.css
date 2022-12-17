@@ -471,3 +471,119 @@ input, select, textarea{
 .socset{
     padding-top: 10px;
 }
+/* //////////////////////////Shapka////////////////////// */
+#side-checkbox {
+    display: none;
+}
+
+.side-panel {
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    left: -360px;
+    background: #337AB7;
+    transition: all 0.5s;   
+    width: 220px;
+    height: 100vh;
+    box-shadow: 10px 0 20px rgba(0,0,0,0.4);
+    color: #FFF;
+    padding: 40px 20px;
+}
+.side-title {
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #BFE2FF;
+}
+/* Оформление кнопки на странице */
+/* .side-button-1-wr {
+    text-align: center;  Контейнер для кнопки, чтобы было удобнее ее разместить 
+} */
+
+.side-button-1 {
+    display: inline-block;
+}
+.side-button-1 .side-b {
+    margin: 10px;
+    text-decoration: none;
+    position: relative;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 12px 30px;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase; 
+    font-family: 'Roboto', Тahoma, sans-serif;
+    background: #337AB7;
+    cursor: pointer; 
+    border: 2px solid #BFE2FF;
+}
+
+/* Переключатели кнопки 1 */
+.side-button-1 .side-close {
+    display: none;
+}
+#side-checkbox:checked + .side-panel + .side-button-1-wr .side-button-1 .side-open {
+    display: none;
+}
+#side-checkbox:checked + .side-panel + .side-button-1-wr .side-button-1 .side-close {
+    display: block;
+}
+#side-checkbox:checked + .side-panel {
+    left: 0;
+}
+/* Оформление кнопки на панеле */
+.side-button-2 {
+    font-size: 30px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 8px;
+    right: 8px;
+    cursor: pointer;
+    transform: rotate(45deg);
+    color: #BFE2FF;    
+    transition: all 280ms ease-in-out;    
+}
+.side-button-2:hover {
+    transform: rotate(45deg) scale(1.1);    
+    color: #FFF;
+}
+
+
+#panel_left{
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+   align-items: center;
+}
+
+.ssilki{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+@media(max-width:1100px){
+    .carti_2{
+        display: flex; 
+        flex-flow: column wrap; 
+        align-items: center; 
+    }
+    #knopka{
+   
+    }
+    #headr{
+      display: none;
+    }
+   
+    
+}
+@media not (max-width:1100px){
+    #knopka{
+   display: none;
+    }
+    #headr{
+      display: block;
+    }
+}

@@ -16,7 +16,27 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
 <body>
-    <header>
+    <div   class="side-button-1-wr" id="knopka"  style="  position:fixed;
+    animation-name: show_header;
+    animation-duration: 1s;">
+        <label class="side-button-1" for="side-checkbox">   
+                <img style="width: 100px;height: 100px; cursor: pointer;" src="https://demo.jaspersoft.com/urban-roast/images/menu-icons/menu-icon-midbrown.png" alt="">
+        </label>
+    </div>
+    <input type="checkbox" id="side-checkbox" />
+    <div class="side-panel">
+        <label class="side-button-2" for="side-checkbox">+</label>    
+        <div id="panel_left">
+                <a class="ssilki" href="index.html">Главная</a>
+                <a class="ssilki" href="aika.html">Строительство</a>
+                <a class="ssilki" href="proektihtml.html">Проекты</a>
+                <a class="ssilki" href="PodborKV.html">Подбор квартир</a>
+                <a class="ssilki" href="#">Контакты</a>
+                <a class="ssilki" href="#">Партнерам</a>
+        </div>
+    </div>
+
+    <header id="headr">
         <div class="header">
             <div class="header_inner">
                 <img class="nav_img" src="https://static.tildacdn.com/tild6337-6433-4830-b539-333535303236/3.svg" width="180"></img>
@@ -199,9 +219,8 @@
             <div class="zav_inputs">
                 <input id = "mail1" type="text" class="zav_input" placeholder="Ваше имя">
                 <input id = "mail2" class="zav_input" id="phone" type="tel" name="phone" placeholder="+7 777 77 77">
-
                 <div class="zav_submit center" id="subm" onclick="email(mail1.value, mail2.value)">
-                    <p id = "subm_1" style ="font-weight: 500; font-size: 18px;">Отправить</p>
+                    <p id = "subm_1" style ="font-weight: 500; font-size: 18px;" onclick="email()">Отправить</p>
                 </div>
             </div>
             <p style="color: white; padding-top: 5px; width: 800px; line-height: 1em;" class="zav_q">Нажав на кнопку "Отправить", вы даете согласие на обработку персональных данных и соглашаетесь с Политикой конфиденциальности</p>
