@@ -4,6 +4,10 @@
 #body1{
     margin: 0;
     background-color: rgb(37, 34, 34);
+   overflow-x: hidden;
+    justify-content: center;
+    flex-direction: column;
+   
 }
 #headimage{
     background:  url('https://i.pinimg.com/originals/fb/e7/76/fbe7764adf0dc8f55248828e5378f86f.jpg') center -18px no-repeat;
@@ -143,14 +147,27 @@ body {
 #top1{
     background-color: rgb(129, 105, 218);
     display: flex;
+    padding-top: 7%;
+    
+}
+@media(max-width:1000px){
+    #top1{
+        flex-direction: column;
+    }
+    #left_top1_inner{
+        margin-top: 10%;
+    }
+   #rasp{
+    display: none;
+   }
+    
 }
 #left_top1_img{
  max-width: 900px;
   margin: 70px;
 }
-/* #left_top1_inner{
- 
-   } */
+
+
    #numbertwo_left{
     background-color: white;
     width: 400px;
@@ -166,6 +183,20 @@ body {
     margin-left:auto;
     margin-right:auto;
    }
+
+
+   @media(max-width:1000px){
+    #numberthree{
+        display: flex;
+     flex-direction: column;
+     margin-bottom: 40%;
+       }
+   #numbertwo_right{
+    display: none;
+   }
+    
+}
+
    #numberthree{
     width: 1100px;
     height:600px;
@@ -173,6 +204,14 @@ body {
     margin-left:auto;
     margin-right:auto;
    }
+
+   @media(max-width:1000px){
+    #ozers{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
  #numberthree_left{
     background-color: white;
     border-width:0.1em;
@@ -203,6 +242,16 @@ body {
     margin-top: 6%;
     height: 700px;
    }
+   @media(max-width:1000px){
+    #number_five{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin-top: 110%;
+       margin-bottom: 110%;
+       }
+}
+
 
    #number_six{
     background-color: #f3f9fc;
@@ -247,12 +296,30 @@ body {
 
 @media(max-width:1000px){
     #cardskrug{
-
         margin-top: 15px;
         display: flex; 
         flex-flow: column wrap; 
         align-items: center; 
     }
+    
+}
+@media(max-width:1000px){
+    #knopka{
+
+    }
+    #headr{
+      display: none;
+    }
+   
+}
+@media not (max-width:1000px){
+    #knopka{
+   display: none;
+    }
+    #headr{
+      display: block;
+    }
+   
     
 }
 
@@ -341,17 +408,27 @@ body {
     display: flex;
 }
 
+@media not (max-width:1000px){
+    #third_metr{
+        padding-left:  150px;
+    padding-right: 150px;
+        gap: 100px;
+       
+    
+    }
+    
+}
+
 #ot_zastroi{
     padding-top: 150px;
     padding-bottom: 150px;
     width: 100%;
     background-color: #4f6f80;
-
 }
 
 #third_metr{
     justify-content: center;
-    gap: 300px;
+    gap: 200px;
     display: flex;
     margin-bottom: 40px;
 }
@@ -682,4 +759,41 @@ gap: 80px;
 .side-button-2:hover {
     transform: rotate(45deg) scale(1.1);    
     color: #FFF;
+}
+#panel_left{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+   align-items: flex-start;
+}
+
+.ssilki{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(12, 10, 10);
+}
+#button_top11{
+    width: 200px;
+    height: 60px;
+   margin-top: 190%;
+    top: 18px;
+    left: 1045px;
+    width: 260px;
+    height: 54px;
+    cursor: pointer; 
+    color: #4b4b4d;
+    font-size: 16px;
+    font-family: 'Aktifo-A',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: #9bc58e;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+#button_top11:hover{
+    background-color: rgb(17, 228, 129);
 }
