@@ -387,6 +387,11 @@ sup {
         margin-top: 0px;
         margin-bottom: -100px;
     }
+
+    .end_img {
+        width: 400px;
+        text-align: center;
+    }
 }
 
 /* Footer */
@@ -399,6 +404,8 @@ sup {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .zav_inputs{
@@ -408,19 +415,26 @@ sup {
 
 .zav_submit{
     background-color: white;
-    width: 150px;
-    height: 50px;
+    width: 100%;
+    height: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .zav_input{
-    height: 50px;
-    width: 220px;
+    height: 60%;
+    width: 100%;
     border: solid 1px white;
     background-color: #224d8f;
 }
+
+.zav_q {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .zav_ques{
     margin-top: 0;
     font-size: 30px;
@@ -444,7 +458,11 @@ input, select, textarea{
     padding-bottom: 80px;
     display: flex;
     justify-content: center; 
-    gap: 130px;
+    flex-wrap: wrap;
+    gap: 70px;
+
+    padding-left: 3%;
+    padding-right: 3%;
 }
 .socset{
     display: flex;
