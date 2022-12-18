@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'); </style>
+</head>
+<body>
+    <div   class="side-button-1-wr" id="knopka"  style="  position:fixed;
+    animation-name: show_header;
+    animation-duration: 1s;">
+        <label class="side-button-1" for="side-checkbox">   
+                <img style="width: 50px;height: 50px; cursor: pointer; position: relative;" src="https://demo.jaspersoft.com/urban-roast/images/menu-icons/menu-icon-midbrown.png" alt="">
+        </label>
+    </div>
+    <input type="checkbox" id="side-checkbox" />
+    <div class="side-panel">
+        <label class="side-button-2" for="side-checkbox">+</label>    
+        <div id="panel_left">
+                <a class="ssilki" href="index.html">Главная</a>
+                <a class="ssilki" href="aika.html">Строительство</a>
+                <a class="ssilki" href="proektihtml.html">Проекты</a>
+                <a class="ssilki" href="PodborKV.html">Подбор квартир</a>
+                <a class="ssilki" href="#">Контакты</a>
+                <a class="ssilki" href="#">Партнерам</a>
+        </div>
+    </div>
+
+    <header id="headr">
+        <div class="header">
+            <div class="header_inner">
+                <img class="nav_img" src="https://static.tildacdn.com/tild6337-6433-4830-b539-333535303236/3.svg" width="180"></img>
+                <nav class="nav">
+                    <a class="nav_link" href="index.html">Главная</a>
+                    <a class="nav_link" href="aika.html">Строительство</a>
+                    <a class="nav_link" href="proektihtml.html">Проекты</a>
+                    <a class="nav_link" href="PodborKV.html">Подбор квартир</a>
+                    <a class="nav_link" href="#">Контакты</a>
+                    <a class="nav_link" href="#">Партнерам</a>
+                    <img src="https://static.tildacdn.com/tild3935-3039-4563-a432-663533316633/call_1.svg" alt="" id="phone_icon">
+                    <a class="nav_link" href="tel:+77115442311" id="head_num">+77115442311</a>
+                </nav>
+                <div class="scroll" onclick="togglemenu()"></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+                <h1 class="head_title">Контакты</h1>
+                <div class="row-inner">
+                    <div class="col-in-1">
+                        <h2 class="sub">Офис</h2>
+                        <p class="main">ул. Толе Би, 83, 2 этаж</p>
+                    </div>
+                    <div class="col-in-1">
+                        <h2 class="sub">Для сотрудничества</h2>
+                        <p class="main">admin@timegroup.kz</p>
+                    </div>
+                </div>
+                <div class="row-inner">
+                    <div class="col-in-1">
+                        <h2 class="sub">Телефон</h2>
+                        <a class="main" href="+7 701 444 0444">+7 701 444 0444</a>
+                    </div>
+                    <div class="col-in-1">
+                        <h2 class="sub">Отдел продаж</h2>
+                        <p class="main">sales@timegroup.kz</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p class="zav_ques">Появились вопросы?</p>
+                <div class="zav_inputs">
+                    <input id = "mail1" type="text" class="zav_input" placeholder="Ваше имя">
+                    <input id = "mail2" class="zav_input" id="phone" type="tel" name="phone" placeholder="+7 777 77 77">
+                    <div class="zav_submit center" id="subm" onclick="email(mail1.value, mail2.value)">
+                        <p id = "subm_1" style ="font-weight: 500; font-size: 18px;" onclick="email()">Отправить</p>
+                    </div>
+                </div>
+                <p style="padding-top: 5px; line-height: 1.3em;" class="zav_q">Нажав на кнопку "Отправить", вы даете согласие на обработку персональных данных и соглашаетесь с Политикой конфиденциальности</p>
+            </div>
+        </div>
+    </div>
+    <div class="color-box2"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1d0df2c93e5b45bee25b75ecef66f64aa2f0f7a2aa66cf252baae2e673e8d1cf&amp;width=100%25&amp;height=496&amp;lang=ru_RU&amp;scroll=true"></script></div>
+
+    <section class="section7">
+        <div class="end1">
+            <div class="end_img">
+                <img src="https://static.tildacdn.com/tild6337-6433-4830-b539-333535303236/3.svg" width="180" alt="">
+            </div>
+            <div class="end_src1">
+                <a class="end_l" href="index.html">Главная</a>
+                <a class="end_l" href="aika.html">Строительство</a>
+                <a class="end_l" href="proektihtml.html">Проекты</a>
+            </div>
+            <div class="end_src2">
+                <a class="end_l" href="PodborKV.html">Подбор квартир</a>
+                <a class="end_l" href="index.html">Контакты</a>
+            </div> 
+            <div class="end_link">
+                <div>
+                    <a class="end_ll" href="#">sales@timegroup.kz</a>
+                </div>
+                <div>
+                    <a class="end_ll" href="#">+7 (708) 674 06 98</a>
+                </div>
+                <div class="socset">
+                    <img style="padding-right: 5px;" src="https://static.tildacdn.com/tild6533-3232-4863-b032-353534363663/instagram-logo_1.svg" width="35" alt="">
+                    <img style="padding-right: 5px;" src="https://static.tildacdn.com/tild6465-6133-4732-b162-613633373435/facebook_1.svg" width="35" alt="">
+                    <img style="padding-right: 5px;" src="https://static.tildacdn.com/tild6233-6234-4435-b661-313462646365/youtube.svg" width="35" alt="">
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <script src="contact.js"></script>
+</body>
+</html>
