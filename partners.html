@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partners</title>
+    <link rel="stylesheet" href="partners.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+    <div   class="side-button-1-wr" id="knopka"  style="  position:fixed;
+    animation-name: show_header;
+    animation-duration: 1s;">
+        <label class="side-button-1" for="side-checkbox">   
+                <img style="width: 50px;height: 50px; cursor: pointer; position: relative;" src="https://demo.jaspersoft.com/urban-roast/images/menu-icons/menu-icon-midbrown.png" alt="">
+        </label>
+    </div>
+    <input type="checkbox" id="side-checkbox" />
+    <div class="side-panel">
+        <label class="side-button-2" for="side-checkbox">+</label>    
+        <div id="panel_left">
+                <a class="ssilki" href="index.html">Главная</a>
+                <a class="ssilki" href="aika.html">Строительство</a>
+                <a class="ssilki" href="proektihtml.html">Проекты</a>
+                <a class="ssilki" href="PodborKV.html">Подбор квартир</a>
+                <a class="ssilki" href="#">Контакты</a>
+                <a class="ssilki" href="#">Партнерам</a>
+        </div>
+    </div>
+
+    <header id="headr">
+        <div class="header">
+            <div class="header_inner">
+                <img class="nav_img" src="https://static.tildacdn.com/tild6337-6433-4830-b539-333535303236/3.svg" width="180"></img>
+                <nav class="nav">
+                    <a class="nav_link" href="index.html">Главная</a>
+                    <a class="nav_link" href="aika.html">Строительство</a>
+                    <a class="nav_link" href="proektihtml.html">Проекты</a>
+                    <a class="nav_link" href="PodborKV.html">Подбор квартир</a>
+                    <a class="nav_link" href="#">Контакты</a>
+                    <a class="nav_link" href="#">Партнерам</a>
+                    <img src="https://static.tildacdn.com/tild3935-3039-4563-a432-663533316633/call_1.svg" alt="" id="phone_icon">
+                    <a class="nav_link" href="tel:+77115442311" id="head_num">+77115442311</a>
+                </nav>
+                <div class="scroll" onclick="togglemenu()"></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-11">
+                <h1 class="headtit">Партнерам</h1>
+                <div class="color-box"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h1 class="head_title">Подрядчикам</h1>
+                <p class="main_text">Станьте частью масштабных строительных проектов города. Привлекаем к длительному сотрудничеству подрядчиков строительных, монтажных и инженерных работ. Высокая оплата труда, юридическое оформление всех документов и стабильный заработок.</p>
+                <a class="contact_num" href="tel:+77115442311"> <img src="https://static.tildacdn.com/tild6161-3838-4062-b366-643362396462/call_1.svg" alt="">+7 (777) 289-99-97</a>
+                <div class="color-box"></div>
+            </div>
+            <div class="col-2">
+                <img id="img" src="https://thumb.tildacdn.com/tild3564-6531-4137-b064-333138356161/-/format/webp/sol-tZw3fcjUIpM-unsp.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h1 class="head_title">Инвесторам</h1>
+                <p class="main_text">Доход на длительной основе без минимальных рисков. Мы сдаем каждый объект в срок и качественно, и заработали лояльность покупателей. Цены на квартиры от «Time Group Construction» растут с каждым этапом.</p>
+                <a class="contact_num" href="tel:+77115442311"> <img src="https://static.tildacdn.com/tild6161-3838-4062-b366-643362396462/call_1.svg" alt="">+7 (777) 289-99-97</a>
+                <div class="color-box"></div>
+            </div>
+            <div class="col-2">
+                <img id="img" src="https://thumb.tildacdn.com/tild3235-3262-4664-b266-366438613734/-/format/webp/sol-tZw3fcjUIpM-unsp.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h1 class="head_title">Землевладельцам</h1>
+                <p class="main_text">Приобретаем земельные участки в черте города и за ее пределами под строительство коммерческой и жилой недвижимости. Быстро, честно, надежно.</p>
+                <a class="contact_num" href="tel:+77115442311"> <img src="https://static.tildacdn.com/tild6161-3838-4062-b366-643362396462/call_1.svg" alt="">+7 (777) 289-99-97</a>
+                <div class="color-box"></div>
+            </div>
+            <div class="col-2">
+                <img id="img" src="https://thumb.tildacdn.com/tild3032-3762-4261-b833-353737363862/-/cover/920x520/center/center/-/format/webp/sol-tZw3fcjUIpM-unsp.jpg" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h1 class="head_title">Заказчикам</h1>
+                <p class="main_text">Хотите построить свой жилой комплекс и получить прибыль, но не хотите тратить время? Time Group строит ЖК на протяжении 16 лет, и имеют большой опыт в возведении и продаже жилых комплексов.</p>
+                <a class="contact_num" href="tel:+77115442311"> <img src="https://static.tildacdn.com/tild6161-3838-4062-b366-643362396462/call_1.svg" alt="">+7 (777) 289-99-97</a>
+                <div class="color-box"></div>
+            </div>
+            <div class="col-2">
+                <img id="img" src="https://thumb.tildacdn.com/tild6566-6136-4432-a535-633237663036/-/format/webp/sol-tZw3fcjUIpM-unsp.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <section class="section6 center">
+        <div class="zav">
+            <p class="zav_ques">Появились вопросы?</p>
+            <div class="zav_inputs">
+                <input id = "mail1" type="text" class="zav_input" placeholder="Ваше имя">
+                <input id = "mail2" class="zav_input" id="phone" type="tel" name="phone" placeholder="+7 777 77 77">
+                <div class="zav_submit center" id="subm" onclick="email(mail1.value, mail2.value)">
+                    <p id = "subm_1" style ="font-weight: 500; font-size: 18px;" onclick="email()">Отправить</p>
+                </div>
+            </div>
+            <p style="padding-top: 5px; line-height: 1.3em;" class="zav_q">Нажав на кнопку "Отправить", вы даете согласие на обработку персональных данных и соглашаетесь с Политикой конфиденциальности</p>
+        </div>
+    </section>
+
+    <section class="section7">
+        <div class="end1">
+            <div class="end_img">
+                <img src="https://static.tildacdn.com/tild6337-6433-4830-b539-333535303236/3.svg" width="180" alt="">
+            </div>
+            <div class="end_src1">
+                <a class="end_l" href="index.html">Главная</a>
+                <a class="end_l" href="aika.html">Строительство</a>
+                <a class="end_l" href="proektihtml.html">Проекты</a>
+            </div>
+            <div class="end_src2">
+                <a class="end_l" href="PodborKV.html">Подбор квартир</a>
+                <a class="end_l" href="index.html">Контакты</a>
+            </div> 
+            <div class="end_link">
+                <div>
+                    <a class="end_ll" href="#">sales@timegroup.kz</a>
+                </div>
+                <div>
+                    <a class="end_ll" href="#">+7 (708) 674 06 98</a>
+                </div>
+                <div class="socset">
+                    <img style="padding-right: 5px;" src="https://static.tildacdn.com/tild6533-3232-4863-b032-353534363663/instagram-logo_1.svg" width="35" alt="">
+                    <img style="padding-right: 5px;" src="https://static.tildacdn.com/tild6465-6133-4732-b162-613633373435/facebook_1.svg" width="35" alt="">
+                    <img style="padding-right: 5px;" src="https://static.tildacdn.com/tild6233-6234-4435-b661-313462646365/youtube.svg" width="35" alt="">
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <script src="partners.js"></script>
+</body>
+</html>
