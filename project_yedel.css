@@ -797,3 +797,9 @@ gap: 80px;
 #button_top11:hover{
     background-color: rgb(17, 228, 129);
 }
+
+.tgrp{
+    color: inherit;
+    text-decoration: none;
+    text-align: center;
+}
