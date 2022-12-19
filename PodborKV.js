@@ -5,12 +5,11 @@ window.onscroll = function showHeader(){
     }
 }
 function search(a, b, c){
-  $(".poisk1").css("display", "none");
-  $(".poisk2").css("display", "block")
+  // $(".poisk1").css("display", "none");
+  // $(".poisk2").css("display", "block");
+    document.getElementById("poisk1").style.display = "none";
+    document.getElementById("poisk2").style.display = "block";
 
-  document.getElementById("recc").style.height = "800px";
- // document.getElementById("recc").style.paddingBottom = "100px";
-  document.getElementById("secc13").style.marginTop = "50px";
     $.ajax({
           url : 'Back.php',
           type : 'POST',
@@ -42,5 +41,5 @@ function email(uname, pass){
 function again(){
   $(".poisk1").css("display", "block");
   $(".poisk2").css("display", "none")
-
 }
+
