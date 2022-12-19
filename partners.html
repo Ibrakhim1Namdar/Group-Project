@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="partners.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <style> @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap'); </style>
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
     <div   class="side-button-1-wr" id="knopka"  style="  position:fixed;
@@ -147,6 +148,19 @@
         </div>
 
     </section>
+
+    <script>
+        ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 800,
+            delay: 400
+        });
+        
+        ScrollReveal().reveal('.head_title', {delay: 500, origin: 'bottom'});
+        ScrollReveal().reveal('.main_text', {delay: 500, origin: 'bottom'});
+        ScrollReveal().reveal('.contact_num', {delay: 500, origin: 'bottom'});
+    </script>
 
     <script src="partners.js"></script>
 </body>

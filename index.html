@@ -5,7 +5,7 @@
     <title>Главная</title>
     <link rel="stylesheet" href="Final.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
 
@@ -218,6 +218,22 @@
         </div>
 
     </section>
+
+    <script>
+        ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 800,
+            delay: 400
+        });
+
+        ScrollReveal().reveal('.ab1', {delay: 500, origin: 'bottom', interval: 200});
+        ScrollReveal().reveal('.ab2', {delay: 500, origin: 'top'});
+        ScrollReveal().reveal('.part3_1', {delay: 500, origin: 'top', interval: 200});
+        ScrollReveal().reveal('.vrema', {delay: 600, origin: 'left'});
+        ScrollReveal().reveal('.photo', {delay: 600, origin: 'right'});
+        ScrollReveal().reveal('.doc_list', {delay: 500, origin: 'bottom', interval: 200});
+    </script>
 
     <script src="Final.js"></script>
 </body>

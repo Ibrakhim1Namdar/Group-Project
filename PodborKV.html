@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="PodborKv.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <title>Подбор Квартир</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
     
@@ -142,6 +143,19 @@
     </div>
 
 </section>
+
+<script>
+    ScrollReveal({
+        reset: true,
+        distance: '60px',
+        duration: 800,
+        delay: 400
+    });
+    
+    ScrollReveal().reveal('.r', {delay: 500, origin: 'right'});
+    ScrollReveal().reveal('.rectangle', {delay: 500, origin: 'left'});
+</script>
+
     <script src="PodborKV.js"></script>
 </body>
 </html>
