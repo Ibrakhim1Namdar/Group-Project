@@ -4,9 +4,8 @@
 #body1{
     margin: 0;
     background-color: rgb(37, 34, 34);
-   overflow-x: hidden;
+    overflow-x: hidden;
     justify-content: center;
-    flex-direction: column;
    
 }
 #headimage{
@@ -148,19 +147,63 @@ body {
     background-color: rgb(129, 105, 218);
     display: flex;
     padding-top: 7%;
+    width: 100%;
+    padding: 10%;
+    margin-bottom: 10%;
+    height: 600px;
     
 }
 @media(max-width:1000px){
+
+
+    
+    html{
+        overflow-x: hidden;
+
+    }
+    #tet{
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+  #gop{
+    margin-top: 200px;
+  }
+  #numberthree{
+    padding-right: 10%;
+   height: 1000px;
+  }
+  #pot{
+ visibility: collapse;
+  }
+  #numberthree_left{
+    width: 100px;
+   
+  }
     #top1{
         flex-direction: column;
+     
     }
+    #numbertwo_right{
+        display: none;
+        margin: 0;
+        position: relative;
+    }
+   
     #left_top1_inner{
         margin-top: 10%;
+        display: none;
     }
    #rasp{
     display: none;
    }
-    
+   #numbertwo{
+   flex-direction: column;
+   }
+
+   #nen{
+    margin-left: 0px;
+   }
 }
 #left_top1_img{
  max-width: 900px;
@@ -247,8 +290,8 @@ body {
        flex-direction: column;
        justify-content: center;
        align-items: center;
-       margin-top: 110%;
-       margin-bottom: 110%;
+       margin-top: 210%;
+       margin-bottom: 210%;
        }
 }
 
