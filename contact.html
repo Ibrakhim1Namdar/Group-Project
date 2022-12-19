@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="contact.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <style> @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'); </style>
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
     <div   class="side-button-1-wr" id="knopka"  style="  position:fixed;
@@ -120,6 +121,18 @@
         </div>
 
     </section>
+
+    <script>
+        ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 800,
+            delay: 400
+        });
+
+        ScrollReveal().reveal('.col-2', {delay: 500, origin: 'right'});
+        ScrollReveal().reveal('.col-1', {delay: 500, origin: 'left'});
+    </script>
 
     <script src="contact.js"></script>
 </body>

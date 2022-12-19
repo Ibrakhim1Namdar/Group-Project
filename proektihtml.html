@@ -5,6 +5,7 @@
     <title>Главная</title>
     <link rel="stylesheet" href="proekticss.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
 
@@ -64,7 +65,7 @@
     </div>
 
 <div class="carti_2">
-<div class="cart1">
+<div class="cart1" id="card111">
 <div ><img style="width: 600px;height: 300px;  vertical-align: top;"  src="https://novostroyki-almaty.kz/Media/images/complex/big/c07deb17bf228a58104363c0ec12c583.jpg" alt=""></div>
 <div style="background-color: #224d8f; color: white; width: 70px;text-align: center;margin-top: 2%;margin-left: 10%;margin-bottom: 4%;">Комфорт</div>
 <div style="display: flex;flex-flow: column wrap; 
@@ -98,7 +99,7 @@ vertical-align: middle;line-height: 70px;">Перейти на сайт</div>
 </div>
 
 
-<div class="cart1">
+<div class="cart1" id="card222">
 <div ><img style="width: 600px;height: 300px;  vertical-align: top;"  src="https://photos-kr.kcdn.kz/09/9bc513f076b364909d7b7462a7b5298a80138f/photo-750x470.jpg" alt=""></div>
 <div style="background-color: #224d8f; color: white; width: 70px;text-align: center;margin-top: 2%;margin-left: 10%;margin-bottom: 4%;">Бизнес</div>
 <div style="display: flex;flex-flow: column wrap; 
@@ -142,7 +143,7 @@ vertical-align: middle;line-height: 70px;">Перейти на сайт</div>
 <div class="carti_2">
 
 
-    <div class="cart1">
+    <div class="cart1" id="card111">
     <div ><img style="width: 600px;height: 300px;  vertical-align: top;"  src="https://thumb.tildacdn.com/tild3263-3565-4263-b362-383439656533/-/format/webp/photo_2022-08-23_17-.jpg" alt=""></div>
     <div style="background-color: #224d8f; color: white; width: 70px;text-align: center;margin-top: 2%;margin-left: 10%;margin-bottom: 4%;">Комфорт</div>
     <div style="display: flex;flex-flow: column wrap; 
@@ -177,7 +178,7 @@ vertical-align: middle;line-height: 70px;">Перейти на сайт</div>
     </div>
     
     
-    <div class="cart1">
+    <div class="cart1" id="card222">
     <div ><img style="width: 600px;height: 300px;  vertical-align: top;"  src="https://photos-kr.kcdn.kz/09/9bc513f076b364909d7b7462a7b5298a80138f/photo-750x470.jpg" alt=""></div>
     <div style="background-color: #224d8f; color: white; width: 70px;text-align: center;margin-top: 2%;margin-left: 10%;margin-bottom: 4%;">Бизнес</div>
     <div style="display: flex;flex-flow: column wrap; 
@@ -272,6 +273,17 @@ vertical-align: middle;line-height: 70px;">Перейти на сайт</div>
 
 </section>
 
+<script>
+    ScrollReveal({
+        reset: true,
+        distance: '60px',
+        duration: 800,
+        delay: 400
+    });
+
+    ScrollReveal().reveal('#card111', {delay: 500, origin: 'left'});
+    ScrollReveal().reveal('#card222', {delay: 500, origin: 'right'});
+</script>
 
 
     <script src="proektijs.js"></script>
