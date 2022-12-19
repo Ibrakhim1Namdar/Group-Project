@@ -231,6 +231,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 100px 0;
+    font-family: 'Roboto Slab', serif;
 }
 
 .col-1 {
