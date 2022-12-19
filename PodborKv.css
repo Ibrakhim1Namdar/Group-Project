@@ -382,6 +382,34 @@ body {
         justify-content: center;
     }
  }
+ /**/
+.fine{
+    display: flex;
+    gap: 30px;
+}
+.fin1{
+    width: 50%;
+}
+.fin2{
+    width: 50%;
+    text-align: center;
+}
+@media(max-width:700px){
+    .fine{
+        display: block;
+    }
+    .fin1{
+        width: 100%;
+    }
+    .fin2{
+        width: 100%;
+    }
+}
+.result1{
+    text-align: center;
+    width: 300px;
+}
+
  .result{
     margin-top: 20px;
     display: flex;
