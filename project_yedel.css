@@ -3,10 +3,9 @@
 
 #body1{
     margin: 0;
-    background-color: rgb(37, 34, 34);
+    /*ackground-color: rgb(37, 34, 34);*/
     overflow-x: hidden;
     justify-content: center;
-   
 }
 #headimage{
     background:  url('https://i.pinimg.com/originals/fb/e7/76/fbe7764adf0dc8f55248828e5378f86f.jpg') center -18px no-repeat;
@@ -16,7 +15,7 @@
 
 body {
     margin: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 15px;
     line-height: 1.6;
     color: #333;
@@ -60,7 +59,7 @@ body {
     display: inline-block;
     vertical-align: top;
     margin-top: 10px;
-  margin-left: 100px;
+    margin-left: 50px;
     position: relative;
     color:black;
     text-decoration: none;
@@ -107,14 +106,14 @@ body {
 }
 #phone_icon {
     margin-left: 50px;
-    margin-right: -90px;
+    margin-right: -30px;
     width: 25px;
 }
 #button_top{
     width: 200px;
     height: 60px;
     margin-bottom: 20px;
-    margin-left: 100px;
+    margin-left: 50px;
     top: 18px;
     left: 1045px;
     width: 260px;
@@ -138,10 +137,14 @@ body {
 }
 
 #left_top1{
-    margin-left: 20%;
-    margin-top:4% ;
-    width: 400px;
+    /*margin-left: 20%;*/
+    margin-top: 4%;
+    flex-basis: 40%;
+    width: 100%;
+    /*width: 400px;*/
     height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 #top1{
     background-color: rgb(129, 105, 218);
@@ -149,10 +152,19 @@ body {
     padding-top: 7%;
     width: 100%;
     padding: 10%;
-    margin-bottom: 10%;
     height: 600px;
     
 }
+
+#left_top1_inner {
+    flex-basis: 60%;
+}
+
+#left_top1_img{
+    width: 80%;
+    margin-top: 70px;
+}
+
 @media(max-width:1000px){
 
 
@@ -205,10 +217,6 @@ body {
     margin-left: 0px;
    }
 }
-#left_top1_img{
- max-width: 900px;
-  margin: 70px;
-}
 
 
    #numbertwo_left{
@@ -219,6 +227,7 @@ body {
     border-style:solid;
     border-color:rgb(0, 0, 0);
    }
+
    #numbertwo{
     width: 1100px;
     height:600px;
@@ -241,7 +250,7 @@ body {
 }
 
    #numberthree{
-    width: 1100px;
+    width: 100%;
     height:600px;
     display: flex;
     margin-left:auto;
@@ -256,12 +265,16 @@ body {
 }
 
  #numberthree_left{
+    flex-basis: 50%;
     background-color: white;
     border-width:0.1em;
     border-style:solid;
     border-color:rgb(0, 0, 0);
    }
 
+   #numberthree_right{
+    flex-basis: 50%;
+   }
 
 
    #number_four{
@@ -315,6 +328,8 @@ body {
 }
 #raspolozhenie{
     margin-top: 100px;
+    padding-left: 3%;
+    width: 100%;
 }
    
 #number_seven{
@@ -346,7 +361,14 @@ body {
     }
     
 }
-@media(max-width:1000px){
+
+@media(max-width:1300px){
+    html {
+        overflow-x: hidden;
+    }
+}
+
+@media(max-width:1200px){
     #knopka{
 
     }
@@ -355,7 +377,7 @@ body {
     }
    
 }
-@media not (max-width:1000px){
+@media not (max-width:1200px){
     #knopka{
    display: none;
     }
@@ -814,6 +836,7 @@ gap: 80px;
     text-decoration: none;
     font-size: 20px;
     color: rgb(12, 10, 10);
+    font-family: 'Roboto Slab', serif;
 }
 #button_top11{
     width: 200px;
