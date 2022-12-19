@@ -324,6 +324,7 @@ body {
     }
     .rectangle{
         width: 100%;
+        padding-bottom: 70px;
     }
     .r{
         width: 0%;
@@ -403,11 +404,12 @@ body {
     }
     .fin2{
         width: 100%;
+        margin-bottom: 100px;
+        text-align: center;
     }
 }
 .result1{
     text-align: center;
-    width: 300px;
 }
 
  .result{
@@ -420,15 +422,30 @@ body {
     color:#333;
  }
  .result1{
+    width: 100%;
     display: flex;
     justify-content: center;
 
  }
- .res{
+ #res{
+    width: 224px;
     top: 0;
-    font-size: large;
+    font-size: 25px;
     font-weight: 500;
     color: black;
-    margin-bottom: 20px;
  }
+ @media(max-width:800px){
+    #res{
+        font-size: 15px;
+    }
+    .result1{
+        margin-bottom: 100px;
+        max-width: 100%;
+    }
+    .fine{
+        padding-bottom: 50px;
+    }
+    
+ }
+ 
  
