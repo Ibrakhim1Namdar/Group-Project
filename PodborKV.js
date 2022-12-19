@@ -5,6 +5,9 @@ window.onscroll = function showHeader(){
     }
 }
 function search(a, b, c){
+  document.getElementById("recc").style.height = "800px";
+ // document.getElementById("recc").style.paddingBottom = "100px";
+  document.getElementById("secc13").style.marginTop = "50px";
     $.ajax({
           url : 'Back.php',
           type : 'POST',
