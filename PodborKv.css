@@ -386,7 +386,6 @@ body {
  /**/
 .fine{
     display: flex;
-    gap: 30px;
 }
 .fin1{
     width: 50%;
@@ -420,6 +419,7 @@ body {
  .kv{
     font-size: large;
     color:#333;
+    font-weight: 500;
  }
  .result1{
     width: 100%;
@@ -428,7 +428,7 @@ body {
 
  }
  #res{
-    width: 224px;
+    /* width: 290px; */
     top: 0;
     font-size: 25px;
     font-weight: 500;

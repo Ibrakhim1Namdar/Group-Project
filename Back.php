@@ -26,7 +26,7 @@ if(isset($_POST['u'])){
         // exit();
 
         while ($row = $result->fetch_assoc()) {
-            echo 'Номер квартиры: '.$row['number'].' Этаж: '.$row['floor'].' Количество комнат: '.$row['room'].' Общяя площадь: '.$row['area'].' Название ЖК: '.$row['JKNAME'].' Цена: '.$row['price']. ' тг.';
+            echo 'Номер квартиры: '.$row['number'].'<br>Этаж: '.$row['floor'].'<br>Количество комнат: '.$row['room'].'<br>Общяя площадь: '.$row['area'].'<br>Название ЖК: '.$row['JKNAME'].'<br>Цена: '.$row['price']. ' тг.';
         
         }
     
