@@ -310,7 +310,7 @@ body {
 .submit{
     width: 220px;
     height: 50px;
-    background-color:  rgb(20, 64, 126);;
+    background-color:  rgb(20, 64, 126);
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -446,5 +446,22 @@ body {
     }
     
  }
- 
+ .poisk2{
+    display: none;
+
+    
+ }
+ .search{
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    width: 200px; 
+    height: 40px; 
+    background-color:  rgb(20, 64, 126); 
+    color: white;
+ }
+ .iskat{
+    display: flex;
+    justify-content: center;
+ }
  

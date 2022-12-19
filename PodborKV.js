@@ -5,6 +5,9 @@ window.onscroll = function showHeader(){
     }
 }
 function search(a, b, c){
+  $(".poisk1").css("display", "none");
+  $(".poisk2").css("display", "block")
+
   document.getElementById("recc").style.height = "800px";
  // document.getElementById("recc").style.paddingBottom = "100px";
   document.getElementById("secc13").style.marginTop = "50px";
@@ -35,4 +38,9 @@ function email(uname, pass){
         console.log ('error');
       }
     });
+}
+function again(){
+  $(".poisk1").css("display", "block");
+  $(".poisk2").css("display", "none")
+
 }
